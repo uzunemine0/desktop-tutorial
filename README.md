@@ -3,6 +3,7 @@
 Bu proje, dünya üzerindeki önemli tarihi mekanları ve eserleri zamansal dönemlerine göre sınıflandırarak interaktif bir 3D küre üzerinde görselleştiren bir web uygulamasıdır.
 
 
+
 📌 Proje Hakkında;
 Uygulama, R programlama dili ve Shiny kütüphanesi kullanılarak geliştirilmiştir. Temel amacı, karmaşık coğrafi verileri son kullanıcının kolayca anlayabileceği, görsel bir deneyime dönüştürmektir.
 
