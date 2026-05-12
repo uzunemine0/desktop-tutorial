@@ -2,8 +2,10 @@
 
 Bu proje, dünya üzerindeki önemli tarihi mekanları ve eserleri zamansal dönemlerine göre sınıflandırarak interaktif bir 3D küre üzerinde görselleştiren bir web uygulamasıdır.
 
+
 📌 Proje Hakkında;
 Uygulama, R programlama dili ve Shiny kütüphanesi kullanılarak geliştirilmiştir. Temel amacı, karmaşık coğrafi verileri son kullanıcının kolayca anlayabileceği, görsel bir deneyime dönüştürmektir.
+
 
 
 📋 Veri Seti İçeriği;
@@ -20,6 +22,7 @@ Dönem:Eserin ait olduğu çağ (Antik Çağ, Orta Çağ, Yeni Çağ, Yakın Ça
 Koordinatlar: Hassas enlem (lat) ve boylam (lon) değerleri.
 
 
+
 🛠 Teknik Özellikler ve Kütüphaneler;
 Uygulamanın geliştirilmesinde aşağıdaki modern veri bilimi araçları kullanılmıştır:
 
@@ -30,6 +33,7 @@ Plotly: 3D interaktif küre (orthographic projection) ve istatistiksel grafikler
 bslib: Uygulamanın modern "Koyu Tema" (Darkly) tasarımıyla şık görünmesini sağlar.
 
 UTF-8 Enkodlama: Emojilerin ve özel karakterlerin tüm tarayıcılarda sorunsuz görünmesi sağlanmıştır.
+
 
 
 🚀 Uygulama Nasıl Kullanılır?
@@ -43,6 +47,7 @@ Noktaların üzerindeki renkler dönemleri temsil eder (Örn: Kırmızı = Antik
 Bir noktanın üzerine geldiğinizde o esere ait detaylı bilgi kartı açılır.
 
 📊 Analiz Grafiği: "Analiz Grafiği" sekmesine tıklandığında, veri setindeki eserlerin çağlara göre dağılımını gösteren dinamik bir sütun grafiği görülür.
+
 
 
 💻 Kurulum ve Çalıştırma;
