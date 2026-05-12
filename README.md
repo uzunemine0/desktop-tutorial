@@ -42,7 +42,7 @@ Bir noktanın üzerine geldiğinizde o esere ait detaylı bilgi kartı açılır
 💻 Kurulum ve Çalıştırma;
 Bu projeyi kendi bilgisayarınızda çalıştırmak isterseniz:
 
-RStudio'yu açın.
+-RStudio'yu açın.
 
 -Shiny, plotly ve bslib paketlerinin yüklü olduğundan emin olun.
 
