@@ -48,5 +48,5 @@ shiny, plotly ve bslib paketlerinin yüklü olduğundan emin olun.
 
 app.R dosyasını çalıştırın (Run App).
 
-Geliştirici
+Geliştirici;
 [Emine Uzun] CBS Dersi Dönem Projesi
