@@ -10,11 +10,13 @@ Uygulama içerisinde Türkiye'den ve dünyadan toplam 100'den fazla önemli loka
 
 Eser Adı: Mekanın veya eserin ismi.
 
-Konum: Şehir ve Ülke bilgisi.
+Şehir: Mekanın veya eserin bulunduğu şehir.
+
+Ülke:Mekanın veya eserin bulunduğu ülke.
+
+Dönem:Eserin ait olduğu çağ (Antik Çağ, Orta Çağ, Yeni Çağ, Yakın Çağ).
 
 Koordinatlar: Hassas enlem (lat) ve boylam (lon) değerleri.
-
-Tarihsel Dönem: Eserin ait olduğu çağ (Antik Çağ, Orta Çağ, Yeni Çağ, Yakın Çağ).
 
 🛠 Teknik Özellikler ve Kütüphaneler;
 Uygulamanın geliştirilmesinde aşağıdaki modern veri bilimi araçları kullanılmıştır:
