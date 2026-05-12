@@ -44,9 +44,9 @@ Bu projeyi kendi bilgisayarınızda çalıştırmak isterseniz:
 
 RStudio'yu açın.
 
-shiny, plotly ve bslib paketlerinin yüklü olduğundan emin olun.
+-Shiny, plotly ve bslib paketlerinin yüklü olduğundan emin olun.
 
-app.R dosyasını çalıştırın (Run App).
+-app.R dosyasını çalıştırın (Run App).
 
 Geliştirici;
 [Emine Uzun] CBS Dersi Dönem Projesi
