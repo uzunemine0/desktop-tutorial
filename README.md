@@ -1,4 +1,5 @@
 🌍 Dünya Tarih Atlası
+
 Bu proje, dünya üzerindeki önemli tarihi mekanları ve eserleri zamansal dönemlerine göre sınıflandırarak interaktif bir 3D küre üzerinde görselleştiren bir web uygulamasıdır.
 
 📌 Proje Hakkında
