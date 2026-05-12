@@ -60,5 +60,5 @@ Bu projeyi kendi bilgisayarınızda çalıştırmak isterseniz:
 
 -app.R dosyasını çalıştırın (Run App).
 
-Geliştirici;
-Emine Uzun CBS Dersi Dönem Projesi
+Geliştirici:
+Emine Uzun-CBS Dersi Dönem Projesi
