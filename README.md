@@ -28,6 +28,7 @@ bslib: Uygulamanın modern "Koyu Tema" (Darkly) tasarımıyla şık görünmesin
 UTF-8 Enkodlama: Emojilerin ve özel karakterlerin tüm tarayıcılarda sorunsuz görünmesi sağlanmıştır.
 
 🚀 Uygulama Nasıl Kullanılır?
+
 Uygulama iki ana bölümden oluşmaktadır:
 
 🗺️ Küre Haritası: 3D dünyayı mouse ile döndürebilir, istediğiniz bölgeye yakınlaşabilirsiniz.
