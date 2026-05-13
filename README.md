@@ -58,7 +58,7 @@ Projeyi kendi bilgisayarınızda çalıştırmak isterseniz:
 
 -RStudio'yu açın.
 
--Gerekli paketleri kurun: "install.packages(c("shiny", "plotly", "bslib"))"
+-Gerekli paketleri kurun: install.packages(c("shiny", "plotly", "bslib"))
 
 -app.R dosyasını açın ve üstteki "Run App" butonuna basın.
 
