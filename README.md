@@ -60,5 +60,9 @@ Bu projeyi kendi bilgisayarınızda çalıştırmak isterseniz:
 
 -app.R dosyasını çalıştırın (Run App).
 
+🚀 Uygulamaya canlı olarak erişebileceğiniz aşağıda tanımlanmıştır:
+
+https://uzun-emine.shinyapps.io/PROJEyeni_CBS/   
+
 Geliştirici:
 Emine Uzun-CBS Dersi Dönem Projesi
