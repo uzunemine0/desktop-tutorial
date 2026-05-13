@@ -1,70 +1,67 @@
-🌍 Dünya Tarih Atlası
+🌍 Dünya Tarih Atlası (3D İnteraktif CBS Projesi)
+Bu proje, Antik Çağ'dan Yakın Çağ'a kadar dünya tarihindeki önemli mekanları ve eserleri 3 Boyutlu bir dijital küre üzerinde görselleştiren interaktif bir web uygulamasıdır. Kullanıcılar, tarihsel verileri sadece bir liste olarak değil, dünya üzerindeki gerçek konumlarıyla ve zamansal sınıflandırmalarıyla keşfedebilirler.
 
-Bu proje, dünya üzerindeki önemli tarihi mekanları ve eserleri zamansal dönemlerine göre sınıflandırarak interaktif bir 3D küre üzerinde görselleştiren bir web uygulamasıdır.
+🚀 Uygulamaya Canlı Erişin: https://uzun-emine.shinyapps.io/PROJEyeni_CBS/ 
+
+ 
+📌 Proje Hakkında
+Uygulama, R programlama dili ve Shiny framework'ü kullanılarak bir Coğrafi Bilgi Sistemi (CBS) mantığıyla geliştirilmiştir. Karmaşık koordinat verilerini, son kullanıcının mouse yardımıyla dünyayı döndürerek inceleyebileceği basit ve estetik bir arayüze dönüştürür.
 
 
+📋 Veri Seti ve İçerik
+Uygulama içerisinde Türkiye'den ve dünyadan seçilmiş, tarihsel öneme sahip 100'den fazla lokasyon titizlikle işlenmiştir. Her bir veri noktası (pin) şu bilgileri barındırır:
 
-📌 Proje Hakkında;
-Uygulama, R programlama dili ve Shiny kütüphanesi kullanılarak geliştirilmiştir. Temel amacı, karmaşık coğrafi verileri son kullanıcının kolayca anlayabileceği, görsel bir deneyime dönüştürmektir.
+Eser/Mekan Adı: Yapının resmi adı.
 
+Konum: Bulunduğu şehir ve ülke bilgisi.
 
+Tarihsel Dönem: Eserin ait olduğu çağ (Antik, Orta, Yeni veya Yakın Çağ).
 
-📋 Veri Seti İçeriği;
-Uygulama içerisinde Türkiye'den ve dünyadan toplam 100'den fazla önemli lokasyon bulunmaktadır. Her bir veri noktası şu bilgileri içerir:
-
-Eser Adı: Mekanın veya eserin ismi.
-
-Şehir: Mekanın veya eserin bulunduğu şehir.
-
-Ülke:Mekanın veya eserin bulunduğu ülke.
-
-Dönem:Eserin ait olduğu çağ (Antik Çağ, Orta Çağ, Yeni Çağ, Yakın Çağ).
-
-Koordinatlar: Hassas enlem (lat) ve boylam (lon) değerleri.
+Coğrafi Koordinatlar: Hassas enlem ve boylam değerleri.
 
 
 
-🛠 Teknik Özellikler ve Kütüphaneler;
-Uygulamanın geliştirilmesinde aşağıdaki modern veri bilimi araçları kullanılmıştır:
+🛠 Teknik Altyapı
+Projenin geliştirilmesinde aşağıdaki modern kütüphaneler kullanılmıştır:
 
-Shiny: Web arayüzünün oluşturulması.
+Shiny: Uygulamanın web tabanlı interaktif bir platform olmasını sağlar.
 
-Plotly: 3D interaktif küre (orthographic projection) ve istatistiksel grafiklerin çizilmesi.
+Plotly: 3D interaktif küre (orthographic) ve dinamik istatistiksel grafiklerin motorudur.
 
-bslib: Uygulamanın modern "Koyu Tema" (Darkly) tasarımıyla şık görünmesini sağlar.
+bslib: Uygulamaya modern, göz yormayan bir "Koyu Tema" (Darkly) tasarımı kazandırır.
 
-UTF-8 Enkodlama: Emojilerin ve özel karakterlerin tüm tarayıcılarda sorunsuz görünmesi sağlanmıştır.
-
-
-
-🚀 Uygulama Nasıl Kullanılır?
-
-Uygulama iki ana bölümden oluşmaktadır:
-
-🗺️ Küre Haritası: 3D dünyayı mouse ile döndürebilir, istediğiniz bölgeye yakınlaşabilirsiniz.
-
-Noktaların üzerindeki renkler dönemleri temsil eder (Örn: Kırmızı = Antik Çağ).
-
-Bir noktanın üzerine geldiğinizde o esere ait detaylı bilgi kartı açılır.
-
-📊 Analiz Grafiği: "Analiz Grafiği" sekmesine tıklandığında, veri setindeki eserlerin çağlara göre dağılımını gösteren dinamik bir sütun grafiği görülür.
+UTF-8: Küresel emojilerin ve Türkçe karakterlerin sorunsuz görüntülenmesini sağlar.
 
 
 
-💻 Kurulum ve Çalıştırma;
-Bu projeyi kendi bilgisayarınızda çalıştırmak isterseniz:
+🚀 Uygulama Nasıl Kullanılır? (Kullanım Kılavuzu)
+Uygulama, üst menüdeki iki ana sekme üzerinden keşfedilir:
 
--RStudio'yu açın.
+🗺️ Küre Haritası Sekmesi:
 
--Shiny, plotly ve bslib paketlerinin yüklü olduğundan emin olun.
+3D Dünya modelini mouse ile her yöne döndürebilir, mouse tekerleği ile yakınlaşabilirsiniz.
 
--app.R dosyasını çalıştırın (Run App).
+Renk Kodları: Haritadaki noktaların renkleri çağları temsil eder (Örn: Kırmızı noktalar Antik Çağ eserlerini gösterir).
 
-🚀 Uygulamaya canlı olarak erişebileceğiniz adres aşağıda tanımlanmıştır:
+Detay Bilgi: Bir noktanın üzerine mouse ile geldiğinizde, o eserin adını ve konumunu gösteren bir bilgi kartı açılır.
 
-https://uzun-emine.shinyapps.io/PROJEyeni_CBS/   
+📊 Analiz Grafiği Sekmesi:
+
+Bu bölümde, veri setindeki eserlerin hangi çağda ne kadar yoğunlaştığını gösteren dinamik bir sütun grafiği yer alır.
 
 
 
-Geliştirici:
-Emine Uzun-İSTE/YBS
+💻 Yerel Kurulum (Geliştiriciler İçin)
+Projeyi kendi bilgisayarınızda çalıştırmak isterseniz:
+
+RStudio'yu açın.
+
+Gerekli paketleri kurun: install.packages(c("shiny", "plotly", "bslib"))
+
+app.R dosyasını açın ve üstteki "Run App" butonuna basın.
+
+
+
+Geliştirici: Emine Uzun
+
+Bölüm: İskenderun Teknik Üniversitesi (İSTE) - Yönetim Bilişim Sistemleri (YBS)
